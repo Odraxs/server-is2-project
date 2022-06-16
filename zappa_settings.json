@@ -5,6 +5,9 @@
         "profile_name": "default",
         "project_name": "aws-zappa",
         "runtime": "python3.9",
-        "s3_bucket": "zappa-7f9erg4hy"
+        "s3_bucket": "zappa-7f9erg4hy",
+            "slim_handler": true,
+	        "use_precompiled_packages": false,
+        "memory_size": 2048
     }
 }

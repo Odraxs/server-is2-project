@@ -46,17 +46,3 @@ def predecir(modelos, imagenes):
         idImg = 0
 
     return resultados_por_modelo
-
-    # files = os.listdir(dirc + "nuevas/")
-    # for file in files:
-    #     imagen = cv2.imread(dirc + "nuevas/" + file)
-    #     imagenGris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
-    #     # imagen=cv2.imread(dirc+direccion)
-    #     inicio = time.time()
-    #     claseResultado = miModeloCNN.predecir(imagenGris)
-    #     fin = time.time()
-    #     print(fin-inicio,"tiempo respuesta")
-    #     #print("La imagen cargada es ", clases[claseResultado - 1])
-    #     msg1="prediccion "+str(clases[claseResultado - 1])
-
-# predecir(["modelo_2.h5"])
